@@ -18,6 +18,14 @@ A plain HTML site. No build step needed.
   - `door.jpg` photo beside "Who We Are"
   - `logo-kb.png`, `logo-mizan.png`, `logo-amanah.png` logos (transparent background)
 
+## Plans (Basic, Standard, Premium)
+
+- `mizan-spaces.html` has an "Our plans" section with three cards.
+- `plan-basic.html`, `plan-standard.html` and `plan-premium.html` are the three plan pages.
+- Put your PDFs in the `plans/` folder as `mizan-basic-plan.pdf`, `mizan-standard-plan.pdf` and `mizan-premium-plan.pdf`.
+- Each plan page shows its PDF on the page (on phones it shows an "Open the plan PDF" button instead). Nothing else needs typing.
+- To change the short line on a plan card, edit the `<p>` under the plan name in the "Our plans" section of `mizan-spaces.html`.
+
 ## Preview in VS Code
 
 1. Open this folder in VS Code (File > Open Folder).
